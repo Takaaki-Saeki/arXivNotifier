@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "manifest_version": 2,
   "description": "Sample Chrome Extension",
+  "permissions": [
+    "https://export.arxiv.org/*"
+ ],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -14,7 +17,7 @@
         "https://www.google.com/"
       ],
       "js": [
-        "content.js"
+        "arxiv_test.js"
       ]
     }
   ]
